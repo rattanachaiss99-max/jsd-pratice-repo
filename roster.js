@@ -3,6 +3,7 @@ const roster = [
   { name: "Yok", role: "" },
   { name: "Meng" , role: "" },
   { name: "Guitar" ,role: "ui lead"},
+  { name: "WAWA" ,role: "ux designer"}
 ];
 
 export default roster; 
