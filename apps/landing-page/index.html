@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Go Thailand Campaign</title>
+
+  <!-- Shared Design System Styles -->
+  <link rel="stylesheet" href="../../shared/styles/variables.css">
+  <link rel="stylesheet" href="../../shared/styles/reset.css">
+  <link rel="stylesheet" href="../../shared/styles/components.css">
+
+  <style>
+    .landing-hero {
+      text-align: center;
+      padding: var(--space-12) var(--space-6);
+      background: radial-gradient(circle at center, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+    }
+    .landing-title {
+      font-size: var(--fs-4xl);
+      font-weight: 700;
+      margin-top: var(--space-4);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <span>🔥</span> Campaign Landing
+    </div>
+    <div class="navbar-nav">
+      <a href="../main-website/index.html" class="nav-link">กลับหน้าหลัก</a>
+    </div>
+  </nav>
+
+  <main class="landing-hero">
+    <span class="badge">Special Event</span>
+    <h1 class="landing-title">หน้าโปรโมชัน / Landing Page</h1>
+    <p style="color: var(--text-muted); margin: 1.5rem 0;">หน้านี้ใช้สไตล์จาก shared/styles ร่วมกับหน้าอื่นๆ ใน Monorepo</p>
+    <a href="../main-website/index.html" class="btn btn-primary">เข้าสู่เว็บไซต์หลัก</a>
+  </main>
+
+  <script src="../../shared/js/main.js"></script>
+</body>
+</html>
